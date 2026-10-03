@@ -1,0 +1,240 @@
+/* ===========================================================
+   GLOBAL APP STYLING
+=========================================================== */
+
+.stApp {
+    background-color: #F8FAFC;
+}
+
+/* Hide Streamlit default UI */
+#MainMenu {
+    visibility: hidden;
+}
+
+footer {
+    visibility: hidden;
+}
+
+header {
+    visibility: hidden;
+}
+
+/* ===========================================================
+   TYPOGRAPHY
+=========================================================== */
+
+.main-title {
+    font-size: 46px;
+    font-weight: 700;
+    color: #0F172A;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 22px;
+    color: #475569;
+    margin-bottom: 5px;
+}
+
+.section-title {
+    font-size: 30px;
+    font-weight: 600;
+    color: #1E3A8A;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+/* ===========================================================
+   MAIN CARD
+=========================================================== */
+
+.card {
+    background: #FFFFFF;
+    padding: 30px;
+    border-radius: 18px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.08);
+    border-left: 6px solid #2563EB;
+    margin-bottom: 30px;
+}
+
+/* ===========================================================
+   METRIC CARDS
+=========================================================== */
+
+.metric-card {
+
+    background: white;
+
+    border-radius: 15px;
+
+    padding: 20px;
+
+    text-align: center;
+
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.08);
+
+    transition: 0.3s;
+}
+
+.metric-card:hover {
+
+    transform: translateY(-4px);
+
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.12);
+}
+
+.metric-number {
+
+    font-size: 34px;
+
+    font-weight: bold;
+
+    color: #2563EB;
+}
+
+.metric-title {
+
+    margin-top: 8px;
+
+    color: #64748B;
+
+    font-size: 16px;
+}
+
+/* ===========================================================
+   FEATURE BOXES
+=========================================================== */
+
+.feature-box {
+
+    background: white;
+
+    padding: 18px;
+
+    border-radius: 15px;
+
+    border-left: 5px solid #10B981;
+
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.05);
+
+    margin-bottom: 15px;
+}
+
+/* ===========================================================
+   DISEASE RESULT CARD
+=========================================================== */
+
+.result-card {
+
+    background: white;
+
+    border-radius: 15px;
+
+    padding: 22px;
+
+    box-shadow: 0px 6px 18px rgba(0,0,0,0.08);
+
+    border-left: 6px solid #2563EB;
+
+    margin-bottom: 20px;
+}
+
+.result-title {
+
+    font-size: 24px;
+
+    font-weight: 600;
+
+    color: #1E293B;
+}
+
+.result-score {
+
+    color: #2563EB;
+
+    font-size: 18px;
+
+    font-weight: bold;
+}
+
+/* ===========================================================
+   BUTTONS
+=========================================================== */
+
+.stButton>button {
+
+    background-color: #2563EB;
+
+    color: white;
+
+    border-radius: 10px;
+
+    border: none;
+
+    font-size: 16px;
+
+    font-weight: 600;
+
+    padding: 12px 20px;
+
+    width: 100%;
+}
+
+.stButton>button:hover {
+
+    background-color: #1D4ED8;
+
+    color: white;
+}
+
+/* ===========================================================
+   TEXT AREA
+=========================================================== */
+
+textarea {
+
+    border-radius: 12px !important;
+
+    border: 2px solid #CBD5E1 !important;
+
+    font-size: 16px !important;
+}
+
+/* ===========================================================
+   SIDEBAR
+=========================================================== */
+
+section[data-testid="stSidebar"] {
+
+    background-color: white;
+
+    border-right: 1px solid #E2E8F0;
+}
+
+section[data-testid="stSidebar"] h2 {
+
+    color: #2563EB;
+}
+
+/* ===========================================================
+   INFO / SUCCESS / WARNING
+=========================================================== */
+
+.stAlert {
+
+    border-radius: 12px;
+}
+
+/* ===========================================================
+   HORIZONTAL RULE
+=========================================================== */
+
+hr {
+
+    border: none;
+
+    border-top: 1px solid #E2E8F0;
+
+    margin: 25px 0;
+}
+
